@@ -8,7 +8,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 # Data Collection Description
 
 ## x_train
-'data.frame':	7352 obs. of  561 variables:
+**'data.frame':	7352 obs. of  561 variables:**
 
  $ V1  : num  0.289 0.278 0.28 0.279 0.277 ...
 
@@ -27,7 +27,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
  $ V8  : num  -0.983 -0.975 -0.964 -0.983 -0.98 ...
 
 ## x_test
-'data.frame':	2947 obs. of  561 variables:
+**'data.frame':	2947 obs. of  561 variables:**
 
  $ V1  : num  0.257 0.286 0.275 0.27 0.275 ...
 
@@ -51,29 +51,29 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 ## y_train
-'data.frame':	7352 obs. of  1 variable:
+**'data.frame':	7352 obs. of  1 variable:**
 
  $ V1: int  5 5 5 5 5 5 5 5 5 5 ...
 
 ## y_test
 
-'data.frame':	2947 obs. of  1 variable:
+**'data.frame':	2947 obs. of  1 variable:**
 
  $ V1: int  5 5 5 5 5 5 5 5 5 5 ...
 
 ## subject_train
-'data.frame':	7352 obs. of  1 variable:
+**'data.frame':	7352 obs. of  1 variable:**
 
  $ V1: int  1 1 1 1 1 1 1 1 1 1 ...
 
 ## subject_test
-'data.frame':	2947 obs. of  1 variable:
+**'data.frame':	2947 obs. of  1 variable:**
 
  $ V1: int  2 2 2 2 2 2 2 2 2 2 ...
 
 
 ## x_dataset
-'data.frame':	10299 obs. of  561 variables:
+**'data.frame':	10299 obs. of  561 variables:**
 
  $ tBodyAcc-mean()-X                   : num  0.289 0.278 0.28 0.279 0.277 ...
 
@@ -101,19 +101,19 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 ## y_dataset
-'data.frame':	10299 obs. of  1 variable:
+**'data.frame':	10299 obs. of  1 variable:**
 
  $ V1: int  5 5 5 5 5 5 5 5 5 5 ...
 
 
 ## subjects_dataset
-'data.frame':	10299 obs. of  1 variable:
+**'data.frame':	10299 obs. of  1 variable:**
 
  $ Subject: int  1 1 1 1 1 1 1 1 1 1 ...
 
 
 ## features
-'data.frame':	561 obs. of  2 variables:
+**'data.frame':	561 obs. of  2 variables:**
 
  $ V1: int  1 2 3 4 5 6 7 8 9 10 ...
 
@@ -121,7 +121,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 ## x_dataset_mean_sd
-'data.frame':	10299 obs. of  79 variables:
+**'data.frame':	10299 obs. of  79 variables:**
 
  $ tBodyAcc-mean()-X              : num  0.289 0.278 0.28 0.279 0.277 ...
 
@@ -283,7 +283,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 ## dataset
-Classes ‘data.table’ and 'data.frame':	10299 obs. of  82 variables:
+**Classes ‘data.table’ and 'data.frame':	10299 obs. of  82 variables:**
+
  $ Subject                        : int  1 1 1 1 1 1 1 1 1 1 ...
 
  $ Activity_ID                    : int  5 5 5 5 5 5 5 5 5 5 ...
@@ -450,7 +451,8 @@ Classes ‘data.table’ and 'data.frame':	10299 obs. of  82 variables:
 
 
 ## dataset_melt
-Classes ‘data.table’ and 'data.frame':	813621 obs. of  5 variables:
+**Classes ‘data.table’ and 'data.frame':	813621 obs. of  5 variables:**
+
  $ Subject    : int  1 1 1 1 1 1 1 1 1 1 ...
 
  $ Activity_ID: int  5 5 5 5 5 5 5 5 5 5 ...
@@ -463,7 +465,7 @@ Classes ‘data.table’ and 'data.frame':	813621 obs. of  5 variables:
 
 
 ## tidy_data
-data.frame':	180 obs. of  81 variables:
+**data.frame':	180 obs. of  81 variables:**
 
  $ Subject                        : int  1 1 1 1 1 1 2 2 2 2 ...
 
